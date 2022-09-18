@@ -1,25 +1,15 @@
-# clv WebRTC SIP JavaScript library
-
-![npm (scoped)](https://img.shields.io/npm/v/clv-sipjs)
-
-The clv SIP-based WebRTC JS library powers up your web application with the ability to make and receive phone calls directly in the browser.
-
-Check out the library in action in [this web dialer demo](https://webrtc.clv.com/).
-
-_Looking for more WebRTC features, JSON-RPC support or need to quickly get spun up with a React app? clv also has a robust [WebRTC SDK](https://github.com/team-clv/webrtc) available as a separate npm module._
-
 ## Installation
 
 Install this package with [npm](https://www.npmjs.com/):
 
 ```shell
-$ npm install --save clv-sipjs
+$ npm install telesale
 ```
 
 or using [yarn](https://yarnpkg.com/lang/en/):
 
 ```shell
-$ yarn add clv-sipjs
+$ yarn add telesale
 ```
 
 ## Usage
@@ -27,7 +17,7 @@ $ yarn add clv-sipjs
 Import [clvDevice](https://github.com/team-clv/clv-sipjs/docs/clvDevice.md) in the module where you need it.
 
 ```javascript
-import { clvDevice } from "clv-sipjs";
+import { clvDevice } from "telesale";
 ```
 
 ```javascript
